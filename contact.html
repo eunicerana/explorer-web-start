@@ -36,13 +36,40 @@
         <input type="radio" id="gender" value="female" name="gender">
         </p>
 
+        <p>
+        <h3>Select Your Hobby</h3>
+        <label for="dance">Dance</label>
+        <input type="checkbox" id="dance" value="dance" name="dance">
+        <label for="sing">Sing</label>
+        <input type="checkbox" id="sing" value="sing" name="sing">
+        </p>
+
+        <h3>Select Your Fav Coffee</h3>
+        <p>
+          <select name="coffee" id="coffee">
+            <optgroup label="Hard Coffee">
+              <option value="expresso">Expresso</option>
+              <option value="cappucino">Cappucino</option>
+            </optgroup>
+            <optgroup label="Soft Coffee">
+              <option value="americano">Expresso</option>
+              <option value="latte">Latte</option>
+            </optgroup>
+          </select>
+        </p>
+        <p>Your Message</p>
+
+        <p>
+          <textarea name="msg" id="msg" cols="40" rows="10"></textarea>
+        </p>
+
         <button type="submit">Submit</button>
         <button type="reset">Reset</button>
 
       </form>
     </fieldset>
 
-    <fieldset>
+<!--     <fieldset>
       <legend>Personal information</legend>
       <form action="mailto" method="post">
         <p>
@@ -57,7 +84,7 @@
         </p>
 
       </form>
-    </fieldset>
+    </fieldset> -->
   </body>
 
 </html>
